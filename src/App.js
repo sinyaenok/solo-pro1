@@ -1,12 +1,17 @@
-import './App.css';
-import Footer from './component/Footer';
-import Header from './component/Header';
+import { Reset } from 'styled-reset'
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyles = createGlobalStyle`
+  body {
+    background : #fff;
+  }`
 
 function App() {
   return (
-    <div>
-      <Header/>
-    </div>
+    <>
+    <Reset/>
+    <GlobalStyles/>
+    </>
   );
 }
 
