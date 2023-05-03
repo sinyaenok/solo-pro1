@@ -1,6 +1,7 @@
 import { Reset } from 'styled-reset'
 import { createGlobalStyle } from 'styled-components';
 import Header from './component/Header/index';
+import Main from './pages/Main/index';
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -12,7 +13,8 @@ function App() {
     <>
     <Reset/>
     <GlobalStyles/>
-    <Header/>
+    {/* <Header/> */}
+    <Main/>
     </>
   );
 }

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Header = () => {
     const StyledHeader = styled.div`
     display : flex;
-    background-color : #fff;
+    /* background-color : trans; */
     border : 1px solid gray;
     height : 50px;
     `;
@@ -19,9 +19,9 @@ const Header = () => {
 
 const Logo = () => {
 const StyledLogo = styled.div`
-display : flex;
-flex : 1;
-background-color : tomato;
+/* display : flex; */
+/* flex : 1; */
+/* background-color : tomato; */
 `
     return (        
         <StyledLogo></StyledLogo>
@@ -29,18 +29,19 @@ background-color : tomato;
 }
 const SearchFrom = () => {
     const StyledSearchFrom = styled.div`
-    display : flex;
-    flex:1;
-    background-color : coral;`;
+    /* display : flex; */
+    /* flex:1; */
+    /* background-color : coral; */
+    `;
     return (
         <StyledSearchFrom></StyledSearchFrom>
     )
 }
 const MemberIcon = () => {
     const StyledMemberIcon = styled.div`
-    display : flex;
-    flex : 1;
-    background-color : skyblue;
+    /* display : flex; */
+    /* flex : 1; */
+    /* background-color : skyblue; */
     `;
     return (
         <StyledMemberIcon></StyledMemberIcon>
